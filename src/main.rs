@@ -8,6 +8,10 @@ mod widget;
 use app::*;
 use map::*;
 
+/*
+To do: mpsc + key bindings, widget layout, map generation, inventory, npcs, limit visibility, randomise exit, New game
+*/
+
 fn main() -> io::Result<()> {
     let mut terminal = ratatui::init();
 
